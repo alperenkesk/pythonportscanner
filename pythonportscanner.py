@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 import socket
-import subprocess
-import sys
 
 remoteServer    = raw_input("IP Adresi Giriniz: ")
 remoteServerIP  = socket.gethostbyname(remoteServer)
